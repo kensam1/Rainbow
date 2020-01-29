@@ -33,7 +33,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="7qF-HA-bWV" kind="show" id="BqH-Sa-ecx"/>
+                                    <segue destination="7qF-HA-bWV" kind="show" identifier="ToDetailViewController" id="BqH-Sa-ecx"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -62,7 +62,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CI2-th-MDc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-9" y="360"/>
+            <point key="canvasLocation" x="213" y="314"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="yLH-iv-UeH">
