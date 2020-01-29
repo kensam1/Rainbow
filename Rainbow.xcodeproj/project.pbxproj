@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9287C72323E1285000B90804 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9287C72223E1285000B90804 /* AppDelegate.swift */; };
 		9287C72523E1285000B90804 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9287C72423E1285000B90804 /* SceneDelegate.swift */; };
-		9287C72723E1285000B90804 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9287C72623E1285000B90804 /* ViewController.swift */; };
 		9287C72A23E1285000B90804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9287C72823E1285000B90804 /* Main.storyboard */; };
 		9287C72C23E1285300B90804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9287C72B23E1285300B90804 /* Assets.xcassets */; };
 		9287C72F23E1285300B90804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9287C72D23E1285300B90804 /* LaunchScreen.storyboard */; };
@@ -38,7 +37,6 @@
 		9287C71F23E1284F00B90804 /* Rainbow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rainbow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9287C72223E1285000B90804 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9287C72423E1285000B90804 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9287C72623E1285000B90804 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9287C72923E1285000B90804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9287C72B23E1285300B90804 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9287C72E23E1285300B90804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -99,12 +97,10 @@
 		9287C72123E1284F00B90804 /* Rainbow */ = {
 			isa = PBXGroup;
 			children = (
-				9287C72223E1285000B90804 /* AppDelegate.swift */,
-				9287C72423E1285000B90804 /* SceneDelegate.swift */,
-				9287C72623E1285000B90804 /* ViewController.swift */,
-				9287C72823E1285000B90804 /* Main.storyboard */,
-				9287C72B23E1285300B90804 /* Assets.xcassets */,
-				9287C72D23E1285300B90804 /* LaunchScreen.storyboard */,
+				9287C75523E12D7300B90804 /* Model */,
+				9287C75423E12CEE00B90804 /* View Controllers */,
+				9287C75323E12CD900B90804 /* Views */,
+				9287C75223E12CBD00B90804 /* Resources */,
 				9287C73023E1285300B90804 /* Info.plist */,
 			);
 			path = Rainbow;
@@ -126,6 +122,39 @@
 				9287C74623E1285300B90804 /* Info.plist */,
 			);
 			path = RainbowUITests;
+			sourceTree = "<group>";
+		};
+		9287C75223E12CBD00B90804 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9287C72223E1285000B90804 /* AppDelegate.swift */,
+				9287C72423E1285000B90804 /* SceneDelegate.swift */,
+				9287C72B23E1285300B90804 /* Assets.xcassets */,
+				9287C72D23E1285300B90804 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9287C75323E12CD900B90804 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9287C72823E1285000B90804 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9287C75423E12CEE00B90804 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9287C75523E12D7300B90804 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +288,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9287C72723E1285000B90804 /* ViewController.swift in Sources */,
 				9287C72323E1285000B90804 /* AppDelegate.swift in Sources */,
 				9287C72523E1285000B90804 /* SceneDelegate.swift in Sources */,
 			);
